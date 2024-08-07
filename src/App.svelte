@@ -57,7 +57,7 @@
         on:keyup={(e) => e.key === 'Enter' && addTodo()}
       />
       <button
-        class=" py-1 md:py-2 hover:bg-orange-500 hover:border-orange-700 flex justify-center items-center hover:font-semibold hover:text-white duration-200 active:scale-95 px-3 rounded-full mb-[5px] w-[20%] mt-2"
+        class=" py-1 md:py-2 hover:bg-orange-500 bg-orange-700  flex justify-center items-center hover:font-semibold hover:text-white duration-200 active:scale-95 px-3 rounded-full mb-[5px] w-[20%] mt-2"
         on:click={addTodo}
       >
         Add
